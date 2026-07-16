@@ -5,11 +5,10 @@ function Button({
   href,
 }) {
   const baseClasses =
-    "inline-flex items-center justify-center px-6 py-3 rounded-xl font-medium transition-all duration-300";
-
+  "inline-flex items-center justify-center px-5 py-2.5 rounded-lg font-semibold transition-all duration-300 whitespace-nowrap";
   const variants = {
     primary:
-      "bg-cyan-500 hover:bg-cyan-600 text-white",
+      "bg-cyan-500 text-white px-5 py-2.5 rounded-lg font-semibold shadow-lg shadow-cyan-500/20 hover:bg-cyan-400 hover:shadow-cyan-400/40 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300",
 
     outline:
       "border border-cyan-500 text-cyan-400 hover:bg-cyan-500 hover:text-white",

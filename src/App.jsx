@@ -1,10 +1,16 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <h1 className="text-5xl font-bold text-cyan-400">
-        🚀 Portfolio Setup Complete
-      </h1>
-    </div>
+    <>
+      <Navbar />
+
+      <main className="pt-24">
+        <h1 className="text-center text-5xl mt-20">
+          Portfolio Coming Soon 🚀
+        </h1>
+      </main>
+    </>
   );
 }
 
