@@ -1,5 +1,5 @@
-import Container from "./Container";
-import Button from "./Button";
+import Container from "./common/Container";
+import Button from "./common/Button";
 import navLinks from "../data/navLinks";
 
 function Navbar() {
